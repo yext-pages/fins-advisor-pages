@@ -1,0 +1,1 @@
+{"version":3,"file":"UserPaths.d.ts","sourceRoot":"","sources":["../../src/types/UserPaths.ts"],"names":[],"mappings":"AAAA;;;GAGG;AACH,MAAM,WAAW,SAAS;IACxB,qEAAqE;IACrE,UAAU,EAAE,MAAM,CAAC;IACnB,gEAAgE;IAChE,KAAK,EAAE,MAAM,CAAC;IACd,kEAAkE;IAClE,OAAO,EAAE,MAAM,CAAC;IAChB,mEAAmE;IACnE,YAAY,EAAE,MAAM,CAAC;IACrB,iEAAiE;IACjE,SAAS,EAAE,MAAM,CAAC;CACnB"}

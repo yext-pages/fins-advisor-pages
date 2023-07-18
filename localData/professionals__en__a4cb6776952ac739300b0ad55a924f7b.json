@@ -1,0 +1,90 @@
+{
+	"__": {
+		"entityPageSet": {
+			"plugin": {}
+		},
+		"name": "professionals",
+		"streamId": "professionals",
+		"templateType": "JS"
+	},
+	"address": {
+		"city": "New York",
+		"countryCode": "US",
+		"line1": "61 9th Ave",
+		"localizedCountryName": "United States",
+		"localizedRegionName": "New York",
+		"postalCode": "10011",
+		"region": "NY"
+	},
+	"businessId": 4045607,
+	"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas finibus placerat justo a viverra. Quisque ut congue tellus, vitae fermentum velit. Suspendisse sed gravida libero. \n\nEtiam pulvinar tincidunt augue vitae fermentum. Maecenas tortor nunc, ullamcorper eu tortor sed, vestibulum suscipit libero. Praesent sit amet pulvinar massa. Proin mattis tellus tristique neque ullamcorper, vel vestibulum lorem dapibus. Vivamus et magna in justo posuere imperdiet sit amet amour tellus.",
+	"emails": [
+		"sjones@yext.com"
+	],
+	"fins_jobTitle": "Vice President",
+	"fins_relatedServices": [
+		{
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"fins_servicesImage": {
+				"alternateText": "Alt Text",
+				"height": 57,
+				"url": "https://a.mktgcdn.com/p/MwEmEOi3k1t3Ah06gCVQapx5XVyunI28s_BD8Q0sT5Y/56x57.png",
+				"width": 56
+			},
+			"name": "Service 1"
+		},
+		{
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis molestie a iaculis at erat pellentesque adipiscing commodo. Diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet. Purus faucibus ornare suspendisse sed nisi lacus. Cursus turpis massa tincidunt dui ut ornare lectus sit amet.",
+			"name": "Service 2"
+		},
+		{
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"name": "Service 3"
+		}
+	],
+	"geocodedCoordinate": {
+		"latitude": 40.741565,
+		"longitude": -74.005294
+	},
+	"headshot": {
+		"alternateText": "Sample Alt Text",
+		"height": 383,
+		"url": "https://a.mktgcdn.com/p/kgrUUvnHk11fjIOAMkB4U9RfQrBPwIeSL3Qgn1Q8k1A/383x383.png",
+		"width": 383
+	},
+	"id": "fins_professional1",
+	"key": "0:professionals:knowledgeGraph:1005231737:en",
+	"locale": "en",
+	"logo": {
+		"image": {
+			"height": 44,
+			"url": "https://a.mktgcdn.com/p/x3mFMha7r29hqX41QbAdPh-upGiBkKWlN8ecj9UPcG0/44x44.png",
+			"width": 44
+		}
+	},
+	"mainPhone": "+17574060122",
+	"meta": {
+		"entityType": {
+			"id": "financialProfessional",
+			"uid": 31640
+		},
+		"locale": "en"
+	},
+	"name": "Sam Jones",
+	"photoGallery": [
+		{
+			"description": "hero image",
+			"image": {
+				"alternateText": "hero image",
+				"height": 550,
+				"url": "https://a.mktgcdn.com/p/XSJWgHAzJRtonqDQH4sFXm_sPfeTNI3OXrdiSklnKZc/825x550.png",
+				"width": 825
+			}
+		}
+	],
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": "",
+	"slug": "fins_professional1",
+	"uid": 1005231737
+}

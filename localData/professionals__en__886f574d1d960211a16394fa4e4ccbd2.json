@@ -1,0 +1,51 @@
+{
+	"__": {
+		"entityPageSet": {
+			"plugin": {}
+		},
+		"name": "professionals",
+		"streamId": "professionals",
+		"templateType": "JS"
+	},
+	"address": {
+		"city": "New York",
+		"countryCode": "US",
+		"line1": "61 9th Ave",
+		"localizedCountryName": "United States",
+		"localizedRegionName": "New York",
+		"postalCode": "10011",
+		"region": "NY"
+	},
+	"businessId": 4045607,
+	"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+	"emails": [
+		"sjones@yext.com"
+	],
+	"geocodedCoordinate": {
+		"latitude": 40.741565,
+		"longitude": -74.005294
+	},
+	"headshot": {
+		"alternateText": "Sample Alt Text",
+		"height": 442,
+		"url": "https://a.mktgcdn.com/p/_zTemQ1yeEvSkGH4wx7sYju21bMkzI5VhgBCCJITy1U/442x442.png",
+		"width": 442
+	},
+	"id": "fins_professional2",
+	"key": "0:professionals:knowledgeGraph:1005231739:en",
+	"locale": "en",
+	"mainPhone": "+17574060122",
+	"meta": {
+		"entityType": {
+			"id": "financialProfessional",
+			"uid": 31640
+		},
+		"locale": "en"
+	},
+	"name": "Sam Jones",
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": "",
+	"slug": "fins_professional2",
+	"uid": 1005231739
+}

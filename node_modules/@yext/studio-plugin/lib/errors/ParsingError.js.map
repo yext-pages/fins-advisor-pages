@@ -1,0 +1,1 @@
+{"version":3,"file":"ParsingError.js","sourceRoot":"","sources":["../../src/errors/ParsingError.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,WAAW,EAAE,MAAM,eAAe,CAAC;AAE5C,MAAM,CAAN,IAAY,gBAKX;AALD,WAAY,gBAAgB;IAC1B,qEAAiD,CAAA;IACjD,+DAA2C,CAAA;IAC3C,qFAAiE,CAAA;IACjE,+EAA2D,CAAA;AAC7D,CAAC,EALW,gBAAgB,KAAhB,gBAAgB,QAK3B;AAED;;;GAGG;AACH,MAAM,OAAO,YAAa,SAAQ,WAAkC;CAAG"}

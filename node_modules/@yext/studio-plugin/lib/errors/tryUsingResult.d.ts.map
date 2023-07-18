@@ -1,0 +1,1 @@
+{"version":3,"file":"tryUsingResult.d.ts","sourceRoot":"","sources":["../../src/errors/tryUsingResult.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,MAAM,EAAE,MAAM,WAAW,CAAC;AACnC,OAAO,EAAE,YAAY,EAAE,gBAAgB,EAAE,MAAM,gBAAgB,CAAC;AAGhE,MAAM,CAAC,OAAO,UAAU,cAAc,CAAC,CAAC,EACtC,SAAS,EAAE,gBAAgB,EAC3B,OAAO,EAAE,MAAM,EACf,IAAI,EAAE,MAAM,CAAC,GACZ,MAAM,CAAC,CAAC,EAAE,YAAY,CAAC,CAYzB"}

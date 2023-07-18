@@ -1,0 +1,1 @@
+{"version":3,"file":"FileIOError.js","sourceRoot":"","sources":["../../src/errors/FileIOError.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,WAAW,EAAE,MAAM,eAAe,CAAC;AAE5C,MAAM,CAAN,IAAY,WAEX;AAFD,WAAY,WAAW;IACrB,wDAAyC,CAAA;AAC3C,CAAC,EAFW,WAAW,KAAX,WAAW,QAEtB;AAED;;GAEG;AACH,MAAM,OAAO,WAAY,SAAQ,WAA6B;CAAG"}

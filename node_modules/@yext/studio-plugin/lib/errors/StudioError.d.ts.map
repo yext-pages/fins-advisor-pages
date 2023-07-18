@@ -1,0 +1,1 @@
+{"version":3,"file":"StudioError.d.ts","sourceRoot":"","sources":["../../src/errors/StudioError.ts"],"names":[],"mappings":"AAAA;;GAEG;AACH,8BAAsB,WAAW,CAAC,CAAC;IACjC,IAAI,EAAE,CAAC,CAAC;IACR,OAAO,EAAE,MAAM,CAAC;IAChB,KAAK,CAAC,EAAE,MAAM,CAAC;gBAEH,IAAI,EAAE,CAAC,EAAE,OAAO,EAAE,MAAM,EAAE,KAAK,CAAC,EAAE,MAAM;CAKrD"}

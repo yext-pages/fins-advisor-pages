@@ -1,0 +1,1 @@
+{"version":3,"file":"ErrorFileMetadata.d.ts","sourceRoot":"","sources":["../../src/types/ErrorFileMetadata.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,gBAAgB,EAAE,MAAM,gBAAgB,CAAC;AAElD,MAAM,MAAM,iBAAiB,GAAG;IAC9B,IAAI,EAAE,gBAAgB,CAAC,KAAK,CAAC;IAC7B,QAAQ,EAAE,MAAM,CAAC;IACjB,YAAY,EAAE,MAAM,CAAC;IACrB,OAAO,EAAE,MAAM,CAAC;CACjB,CAAC"}

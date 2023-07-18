@@ -1,0 +1,62 @@
+{
+  "bundlePaths": {
+    "professionals": "assets/server/professionals.5c529647.js"
+  },
+  "projectFilepaths": {
+    "templatesRoot": "src/templates",
+    "distRoot": "dist",
+    "hydrationBundleOutputRoot": "dist/hydration_templates",
+    "serverBundleOutputRoot": "dist/assets/server"
+  },
+  "bundlerManifest": {
+    "node_modules/@yext/pages/dist/vite-plugin/build/buildStart/rendering/renderer.js": {
+      "file": "assets/renderer/templateRenderer.js",
+      "src": "node_modules/@yext/pages/dist/vite-plugin/build/buildStart/rendering/renderer.js",
+      "isEntry": true,
+      "imports": [
+        "_index-14571048.js"
+      ]
+    },
+    "src/assets/images/tacos-1.avif": {
+      "file": "assets/static/tacos-1-06a03ffb.avif",
+      "src": "src/assets/images/tacos-1.avif"
+    },
+    "dist/hydration_templates/professionals.tsx": {
+      "file": "assets/hydrate/professionals.2b7957dd.js",
+      "src": "dist/hydration_templates/professionals.tsx",
+      "isEntry": true,
+      "imports": [
+        "_professionals-761db874.js",
+        "_index-14571048.js"
+      ]
+    },
+    "src/templates/professionals.tsx": {
+      "file": "assets/server/professionals.5c529647.js",
+      "src": "src/templates/professionals.tsx",
+      "isEntry": true,
+      "imports": [
+        "_professionals-761db874.js",
+        "_index-14571048.js"
+      ]
+    },
+    "_index-14571048.js": {
+      "file": "assets/static/index-14571048.js"
+    },
+    "_professionals-761db874.js": {
+      "file": "assets/static/professionals-761db874.js",
+      "imports": [
+        "_index-14571048.js"
+      ],
+      "css": [
+        "assets/static/professionals-0601ce7f.css"
+      ],
+      "assets": [
+        "assets/static/tacos-1-06a03ffb.avif"
+      ]
+    },
+    "professionals.css": {
+      "file": "assets/static/professionals-0601ce7f.css",
+      "src": "professionals.css"
+    }
+  }
+}

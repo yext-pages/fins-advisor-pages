@@ -1,0 +1,10 @@
+{
+  "$schema": "https://schema.yext.com/config/km/settings/v1",
+  "entityTypeSettings": [
+    {
+      "entityType": "ce_product",
+      "defaultFieldEligibilityGroup": "ce_product.default",
+      "disabled": false
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "features": [
+    {
+      "name": "professionals",
+      "streamId": "professionals",
+      "templateType": "JS",
+      "entityPageSet": {
+        "plugin": {}
+      }
+    }
+  ],
+  "streams": [
+    {
+      "$id": "professionals",
+      "localization": {
+        "locales": [
+          "en"
+        ],
+        "primary": false
+      },
+      "filter": {
+        "entityTypes": [
+          "financialProfessional"
+        ]
+      },
+      "fields": [
+        "name",
+        "description",
+        "headshot",
+        "slug",
+        "photoGallery",
+        "fins_jobTitle",
+        "logo",
+        "fins_relatedServices.name",
+        "emails",
+        "address",
+        "mainPhone",
+        "geocodedCoordinate",
+        "fins_relatedServices.description",
+        "fins_relatedServices.fins_servicesImage"
+      ]
+    }
+  ]
+}

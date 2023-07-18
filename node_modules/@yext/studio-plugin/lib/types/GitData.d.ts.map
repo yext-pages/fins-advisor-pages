@@ -1,0 +1,1 @@
+{"version":3,"file":"GitData.d.ts","sourceRoot":"","sources":["../../src/types/GitData.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,OAAO;IACtB,OAAO,EAAE;QACP,MAAM,EAAE,OAAO,CAAC;QAChB,MAAM,CAAC,EAAE,MAAM,CAAC;KACjB,CAAC;IACF,WAAW,EAAE,OAAO,CAAC;CACtB"}

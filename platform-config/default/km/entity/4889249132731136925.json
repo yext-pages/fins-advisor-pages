@@ -1,0 +1,29 @@
+{
+  "$id": "4889249132731136925",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_price": "699.99",
+    "description": "Looking for reliable and dynamic skis that are perfect for both groomed and ungroomed conditions? The [[name]] have got you covered! These highly versatile freestyle skis feature a playful rockered tip and tail, which provides ample floatation in deep snow while maintaining stability on hardpack. Its lightweight Poplar-Core construction lends it the perfect balance of strength, agility and flexibility to perform on any terrain, making it an ideal option for intermediate or advanced skiers who want to push boundaries.",
+    "name": "Blazing Fast Skis",
+    "photoGallery": [
+      {
+        "image": {
+          "height": 2384,
+          "thumbnails": [
+            {
+              "height": 2384,
+              "url": "https://a.mktgcdn.com/p-sandbox/JREfr7-4xcZVsBwov7Yo1NgjVA8fFM3jJA0I49T8Org/2384x2384.jpg",
+              "width": 2384
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p-sandbox/JREfr7-4xcZVsBwov7Yo1NgjVA8fFM3jJA0I49T8Org/2384x2384.jpg",
+          "width": 2384
+        }
+      }
+    ],
+    "slug": "[[name]]"
+  },
+  "entityType": "ce_product",
+  "labels": []
+}
