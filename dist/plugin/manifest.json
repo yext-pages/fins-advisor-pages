@@ -1,6 +1,6 @@
 {
   "bundlePaths": {
-    "professionals": "assets/server/professionals.5c529647.js"
+    "professionals": "assets/server/professionals.952cbecd.js"
   },
   "projectFilepaths": {
     "templatesRoot": "src/templates",
@@ -14,7 +14,7 @@
       "src": "node_modules/@yext/pages/dist/vite-plugin/build/buildStart/rendering/renderer.js",
       "isEntry": true,
       "imports": [
-        "_index-14571048.js"
+        "_index-e5b0c1c7.js"
       ]
     },
     "src/assets/images/tacos-1.avif": {
@@ -22,40 +22,40 @@
       "src": "src/assets/images/tacos-1.avif"
     },
     "dist/hydration_templates/professionals.tsx": {
-      "file": "assets/hydrate/professionals.2b7957dd.js",
+      "file": "assets/hydrate/professionals.af931715.js",
       "src": "dist/hydration_templates/professionals.tsx",
       "isEntry": true,
       "imports": [
-        "_professionals-761db874.js",
-        "_index-14571048.js"
+        "_professionals-ba4b36c8.js",
+        "_index-e5b0c1c7.js"
       ]
     },
     "src/templates/professionals.tsx": {
-      "file": "assets/server/professionals.5c529647.js",
+      "file": "assets/server/professionals.952cbecd.js",
       "src": "src/templates/professionals.tsx",
       "isEntry": true,
       "imports": [
-        "_professionals-761db874.js",
-        "_index-14571048.js"
+        "_professionals-ba4b36c8.js",
+        "_index-e5b0c1c7.js"
       ]
     },
-    "_index-14571048.js": {
-      "file": "assets/static/index-14571048.js"
+    "_index-e5b0c1c7.js": {
+      "file": "assets/static/index-e5b0c1c7.js"
     },
-    "_professionals-761db874.js": {
-      "file": "assets/static/professionals-761db874.js",
+    "_professionals-ba4b36c8.js": {
+      "file": "assets/static/professionals-ba4b36c8.js",
       "imports": [
-        "_index-14571048.js"
+        "_index-e5b0c1c7.js"
       ],
       "css": [
-        "assets/static/professionals-0601ce7f.css"
+        "assets/static/professionals-d3f9c072.css"
       ],
       "assets": [
         "assets/static/tacos-1-06a03ffb.avif"
       ]
     },
     "professionals.css": {
-      "file": "assets/static/professionals-0601ce7f.css",
+      "file": "assets/static/professionals-d3f9c072.css",
       "src": "professionals.css"
     }
   }

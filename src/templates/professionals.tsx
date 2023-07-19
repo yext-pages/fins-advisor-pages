@@ -70,7 +70,7 @@ export default function Professional({ document }: TemplateProps) {
             alignment="center" 
             verticalOnMobile="false"
             backgroundColor="#1C2E5E"
-            backgroundImage={document.photoGallery[0].image.url}          
+            backgroundImage={document.photoGallery[0]?.image.url}          
             >
             <HeroImage
               src={`${document.headshot.url}`}
@@ -110,25 +110,25 @@ export default function Professional({ document }: TemplateProps) {
             fontWeight="normal"
           />
         </VerticalStack>
-        <ItemsGrid 
+        {/* <ItemsGrid 
         title="Services Offered"
         columns={3}>
           <Item
-            name={document.fins_relatedServices[0].name}
-            image={document.fins_relatedServices[0].fins_servicesImage.url}
-            description={document.fins_relatedServices[0].description}
+            name={document.fins_relatedServices[0]?.name}
+            image={document.fins_relatedServices[0]?.fins_servicesImage.url}
+            description={document.fins_relatedServices[0]?.description}
           />
           <Item
-            name={document.fins_relatedServices[1].name}
-            image={document.fins_relatedServices[0].fins_servicesImage.url}
-            description={document.fins_relatedServices[1].description}
+            name={document.fins_relatedServices[1]?.name}
+            image={document.fins_relatedServices[0]?.fins_servicesImage.url}
+            description={document.fins_relatedServices[1]?.description}
           />
           <Item
-            name={document.fins_relatedServices[2].name}
-            image={document.fins_relatedServices[0].fins_servicesImage.url}
-            description={document.fins_relatedServices[2].description}
+            name={document.fins_relatedServices[2]?.name}
+            image={document.fins_relatedServices[0]?.fins_servicesImage.url}
+            description={document.fins_relatedServices[2]?.description}
           />
-        </ItemsGrid>
+        </ItemsGrid> */}
         <Title
             value={`Let's Talk`}
             textSize="4xl"

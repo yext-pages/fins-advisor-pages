@@ -21,6 +21,7 @@
 	"emails": [
 		"sjones@yext.com"
 	],
+	"fins_jobTitle": "Director",
 	"geocodedCoordinate": {
 		"latitude": 40.741565,
 		"longitude": -74.005294
@@ -34,6 +35,13 @@
 	"id": "fins_professional3",
 	"key": "0:professionals:knowledgeGraph:1005231744:en",
 	"locale": "en",
+	"logo": {
+		"image": {
+			"height": 44,
+			"url": "https://a.mktgcdn.com/p/x3mFMha7r29hqX41QbAdPh-upGiBkKWlN8ecj9UPcG0/44x44.png",
+			"width": 44
+		}
+	},
 	"mainPhone": "+17574060122",
 	"meta": {
 		"entityType": {
@@ -43,6 +51,16 @@
 		"locale": "en"
 	},
 	"name": "Sam Jones",
+	"photoGallery": [
+		{
+			"image": {
+				"alternateText": "hero image",
+				"height": 550,
+				"url": "https://a.mktgcdn.com/p/XSJWgHAzJRtonqDQH4sFXm_sPfeTNI3OXrdiSklnKZc/825x550.png",
+				"width": 825
+			}
+		}
+	],
 	"siteDomain": "",
 	"siteId": 0,
 	"siteInternalHostName": "",

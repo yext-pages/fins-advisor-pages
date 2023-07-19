@@ -73,7 +73,6 @@
 	"name": "Sam Jones",
 	"photoGallery": [
 		{
-			"description": "hero image",
 			"image": {
 				"alternateText": "hero image",
 				"height": 550,
