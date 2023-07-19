@@ -114,18 +114,18 @@ export default function Professional({ document }: TemplateProps) {
         title="Services Offered"
         columns={3}>
           <Item
-            name={document.fins_relatedServices[0]?.name}
+            name={document.fins_relatedServices[0].name}
             image={document.fins_relatedServices[0]?.fins_servicesImage.url}
             description={document.fins_relatedServices[0]?.description}
           />
           <Item
             name={document.fins_relatedServices[1]?.name}
-            image={document.fins_relatedServices[0]?.fins_servicesImage.url}
+            image={document.fins_relatedServices[1]?.fins_servicesImage.url}
             description={document.fins_relatedServices[1]?.description}
           />
           <Item
             name={document.fins_relatedServices[2]?.name}
-            image={document.fins_relatedServices[0]?.fins_servicesImage.url}
+            image={document.fins_relatedServices[2]?.fins_servicesImage.url}
             description={document.fins_relatedServices[2]?.description}
           />
         </ItemsGrid>
