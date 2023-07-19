@@ -110,7 +110,7 @@ export default function Professional({ document }: TemplateProps) {
             fontWeight="normal"
           />
         </VerticalStack>
-        {/* <ItemsGrid 
+        <ItemsGrid 
         title="Services Offered"
         columns={3}>
           <Item
@@ -128,7 +128,7 @@ export default function Professional({ document }: TemplateProps) {
             image={document.fins_relatedServices[0]?.fins_servicesImage.url}
             description={document.fins_relatedServices[2]?.description}
           />
-        </ItemsGrid> */}
+        </ItemsGrid>
         <Title
             value={`Let's Talk`}
             textSize="4xl"
