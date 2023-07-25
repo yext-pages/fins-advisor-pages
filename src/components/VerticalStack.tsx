@@ -78,10 +78,10 @@ const VerticalStack = ({
   };
 
   return (
-    <div
-      className={`flex flex-col ${spacingVariants[spacing]} ${topMarginVariants[topMargin]} ${bottomMarginVariants[bottomMargin]} ${leftMarginVariants[leftMargin]} ${rightMarginVariants[rightMargin]}`}
-      style={{backgroundColor}}>
+    <div className="VStack conainer" style={{backgroundColor}}>
+    <div className={`flex flex-col ${spacingVariants[spacing]} ${topMarginVariants[topMargin]} ${bottomMarginVariants[bottomMargin]} ${leftMarginVariants[leftMargin]} ${rightMarginVariants[rightMargin]}`}>
       {children}
+    </div>
     </div>
   );
 };

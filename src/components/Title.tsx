@@ -1,4 +1,4 @@
-import React from 'react';
+import { HexColor } from "@yext/studio";
 
 export interface TitleProps {
   value: string;
@@ -15,6 +15,8 @@ export interface TitleProps {
     | "bold"
     | "extrabold"
     | "black";
+    backgroundColor?: HexColor;
+    textColor?: HexColor;
 }
 
 export const initialProps: TitleProps = {
@@ -31,6 +33,8 @@ const Title = ({
   fontWeight,
   topMargin,
   bottomMargin,
+  backgroundColor,
+  textColor,
 }: TitleProps) => {
   const weightVariants = {
     thin: "font-thin",
@@ -72,12 +76,12 @@ const Title = ({
   };
 
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex justify-center items-center" style={{backgroundColor}}>
       <div
         className={`not-prose mt-4 ${topMarginVariants[topMargin]} ${bottomMarginVariants[bottomMargin]}`}
       >
         <h1
-          className={`${sizeVariants[textSize]} ${weightVariants[fontWeight]} tracking-tight text-gray-900`}
+          className={`${sizeVariants[textSize]} ${weightVariants[fontWeight]} tracking-tight`} style={{color:textColor}}
         >
           {value}
         </h1>

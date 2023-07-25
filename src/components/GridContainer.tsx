@@ -13,7 +13,7 @@ const GridContainer = ({
 }: GridContainerProps) => {
 
   return (
-    <div className="mx-auto py-10 bg-cover grid max-w-7xl grid-cols-2 gap-x-8 px-8" 
+    <div className="mx-auto py-10 bg-cover grid grid-cols-2 gap-x-8 px-8" 
     style={{
       backgroundColor, backgroundImage: `url(${backgroundImage})`}}
       >

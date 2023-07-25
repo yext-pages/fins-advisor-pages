@@ -1,15 +1,9 @@
 import { GetPath, TemplateConfig, TemplateProps } from "@yext/pages";
 import CenteredContainer from "../components/CenteredContainer";
 import GridContainer from "../components/GridContainer";
-import HStack from "../components/HorizontalStack";
 import HeaderSimple from "../components/HeaderSimple";
-import Headline from "../components/Headline";
-import Item from "../components/Item";
-import ItemsGrid from "../components/ItemsGrid";
 import PageLayout from "../components/PageLayout";
 import Paragraph from "../components/Paragraph";
-import ProductImage from "../components/HeroImage";
-import ProductTable from "../components/ProductTable";
 import Title from "../components/Title";
 import VerticalStack from "../components/VerticalStack";
 import "../index.css";
@@ -19,12 +13,14 @@ import Footer from "../components/Footer";
 import ContactInfo from "../components/ContactInfo";
 import { LocationMap } from "@yext/pages/components";
 import { GoogleMaps } from "@yext/components-tsx-maps";
+import Articles from "../components/Articles";
+import MapDescription from "../components/MapDescription";
 export const config: TemplateConfig = {
   stream: {
     $id: "professionals",
     localization: { locales: ["en"], primary: false },
     filter: { entityTypes: ["financialProfessional"] },
-    fields: ["name", "description", "headshot", "slug", "photoGallery", "fins_jobTitle", "logo", "fins_relatedServices.name", "emails", "address", "mainPhone", "geocodedCoordinate", "fins_relatedServices.description", "fins_relatedServices.fins_servicesImage"],
+    fields: ["name", "description", "headshot", "slug", "photoGallery", "fins_jobTitle", "logo", "fins_relatedServices.name", "emails", "address", "mainPhone", "geocodedCoordinate", "fins_relatedServices.description", "fins_relatedServices.fins_servicesImage", "fins_featuredArticles.name", "fins_featuredArticles.shortDescription", "fins_featuredArticles.fins_articlePhoto"],
   },
 };
 export const getPath: GetPath<TemplateProps> = ({ document }) => {
@@ -52,6 +48,8 @@ export default function Professional({ document }: TemplateProps) {
       />
     </svg>
   );
+  const formattedPhone = (`${document.mainPhone.substring(0, 2)} (${document.mainPhone.substring(2, 5)}) ${document.mainPhone.substring(5, 8)}-${document.mainPhone.substring(8)}`)
+
 
 
   return (
@@ -83,11 +81,11 @@ export default function Professional({ document }: TemplateProps) {
         addressLine1={document.address.line1}
         addressLine2={`${document.address.city}, ${document.address.region} ${document.address.postalCode}`}
         email={document.emails[0]}
-        phone={document.mainPhone}
+        phone={formattedPhone}
         textColor="#fff"
         >       
         </ContactInfo>
-          </HorizontalStack>
+        </HorizontalStack>
         <VerticalStack
           alignment="left"
           rightMargin="0"
@@ -103,14 +101,16 @@ export default function Professional({ document }: TemplateProps) {
             fontWeight="medium"
             topMargin="4"
             bottomMargin="4"
+            textColor="#1C2E5E"
           />
           <Paragraph
             value={`${document.description}`}
             textSize="base"
             fontWeight="normal"
+            bottomMargin="6"
           />
         </VerticalStack>
-        <ItemsGrid 
+        {/* <ItemsGrid 
         title="Services Offered"
         columns={3}>
           <Item
@@ -128,39 +128,38 @@ export default function Professional({ document }: TemplateProps) {
             image={document.fins_relatedServices[2]?.fins_servicesImage.url}
             description={document.fins_relatedServices[2]?.description}
           />
-        </ItemsGrid>
+        </ItemsGrid> */}
+        <Title
+            value={`Insights`}
+            textSize="4xl"
+            fontWeight="medium"
+            topMargin="4"
+            bottomMargin="8"
+            textColor="#1C2E5E"
+          />
+        <Articles articles={document.fins_featuredArticles} />
         <Title
             value={`Let's Talk`}
             textSize="4xl"
             fontWeight="medium"
-            topMargin="0"
-            bottomMargin="4"
+            topMargin="4"
+            bottomMargin="2"
+            backgroundColor="#F9FAFB"
+            textColor="#1C2E5E"
           />
         <GridContainer
         backgroundColor="#F9FAFB"
         >
-          <HorizontalStack
-            spacing="1"
-            topMargin="4"
-            bottomMargin="10"
-            leftMargin="2"
-            rightMargin="2"
-            alignment="center" 
-            verticalOnMobile="false"          
-            >
-            <Paragraph
-              value={`${document.description}`}
-              fontWeight="light"
-              textSize="base"
-            />
-            <Paragraph
-              value={`${document.emails[0]}`}
-              fontWeight="light"
-              textSize="base"
-            />
-          </HorizontalStack>
+
+        <MapDescription
+            description={document.description}
+            email={document.emails[0]}
+            phone={formattedPhone}
+            textColor="#333333"
+        />
+
           <LocationMap
-              className="h-[300px] mt-16"
+              className="h-full"
               clientKey="gme-yextinc"
               coordinate={document.geocodedCoordinate}
               provider={GoogleMaps}
@@ -185,8 +184,7 @@ export default function Professional({ document }: TemplateProps) {
     </svg>}
             </LocationMap>
         </GridContainer>
-      <Footer
-        logo={document.logo.image.url}
+      <Footer label1={"Privacy"} link1={"#"} label2={"Terms of Use"} link2={"#"} label3={"Accessibility"} link3={"#"} label4={"Cookies Policy"} link4={"#"} label5={"Regulatory Disclosures"} link5={"#"} textColor={"#1E3A8A"}         
       />
       </CenteredContainer>
     </PageLayout>

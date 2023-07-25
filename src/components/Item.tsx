@@ -18,7 +18,7 @@ const Item = ({ name, image, description }: ItemProps) => {
         <img
           src={image}
           alt={name}
-          className="object-cover w-full h-48 mx-auto text-gray-300 rounded-md"
+          className="object-none w-full h-48 mx-auto text-gray-300 rounded-md"
         />
         <h3 className="mt-4 text-sm font-medium text-gray-900">
           <a href="#">
@@ -26,7 +26,7 @@ const Item = ({ name, image, description }: ItemProps) => {
             {name}
           </a>
         </h3>
-        <p className="mt-1 text-sm text-gray-500">{`$${description}`}</p>
+        <p className="mt-1 text-sm text-gray-500">{`${description}`}</p>
       </div>
     </li>
   );

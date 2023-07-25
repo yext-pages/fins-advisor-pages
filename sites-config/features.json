@@ -7,6 +7,13 @@
       "entityPageSet": {
         "plugin": {}
       }
+    },
+    {
+      "name": "homepage",
+      "templateType": "JS",
+      "staticPage": {
+        "plugin": {}
+      }
     }
   ],
   "streams": [
@@ -37,7 +44,10 @@
         "mainPhone",
         "geocodedCoordinate",
         "fins_relatedServices.description",
-        "fins_relatedServices.fins_servicesImage"
+        "fins_relatedServices.fins_servicesImage",
+        "fins_featuredArticles.name",
+        "fins_featuredArticles.shortDescription",
+        "fins_featuredArticles.fins_articlePhoto"
       ]
     }
   ]
