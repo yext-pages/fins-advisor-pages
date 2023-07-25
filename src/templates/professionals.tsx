@@ -27,7 +27,7 @@ export const getPath: GetPath<TemplateProps> = ({ document }) => {
   return document.slug ?? document.entityId.toString();
 };
 
-export default function Professional({ document }: TemplateProps) {
+export default function Professional({ document, __meta }: TemplateProps) {
   const mappinSVG = (
     <svg
       width="56"
@@ -53,7 +53,7 @@ export default function Professional({ document }: TemplateProps) {
 
 
   return (
-    <PageLayout backgroundColor="#FFFFFF">
+    <PageLayout backgroundColor="#FFFFFF" templateData={{ document, __meta }}>
       <CenteredContainer>
         <HeaderSimple
         logo={document.logo.image.url}
