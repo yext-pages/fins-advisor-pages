@@ -23,65 +23,65 @@
 	],
 	"fins_featuredArticles": [
 		{
+			"fins_articleDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis molestie a iaculis at erat pellentesque adipiscing commodo. Diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet. Purus faucibus ornare suspendisse sed nisi lacus. Cursus turpis massa tincidunt dui ut ornare lectus sit amet.",
 			"fins_articlePhoto": {
 				"image": {
-					"height": 1962,
-					"url": "https://a.mktgcdn.com/p/CH1W56lBSu0TrSD0UeV3Qq6u85Ll1pCZXfpMB68lOpg/2940x1962.jpg",
-					"width": 2940
+					"height": 550,
+					"url": "https://a.mktgcdn.com/p/jWmDbq-sCCs127N6mErDbWCfICs8VKU0P6C1zqBhgJg/831x550.png",
+					"width": 831
 				}
 			},
-			"name": "Article 1",
-			"shortDescription": "Don't let avoidable tax mistakes derail your financial progress. In this informative piece, our certified tax professionals shed light on the most common tax pitfalls individuals and businesses face and provide practical tips to steer clear of them. Learn about overlooked reporting requirements, potential audit triggers, and pitfalls related to cryptocurrency transactions and gig economy income. Gain insight into handling tax implications of rental properties and investments wisely. By proactively avoiding these errors, you can ensure a smoother tax\\-filing experience and maintain compliance with tax laws."
+			"name": "Article 1"
 		},
 		{
+			"fins_articleDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis molestie a iaculis at erat pellentesque adipiscing commodo. Diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet. Purus faucibus ornare suspendisse sed nisi lacus. Cursus turpis massa tincidunt dui ut ornare lectus sit amet.",
 			"fins_articlePhoto": {
 				"image": {
-					"height": 1962,
-					"url": "https://a.mktgcdn.com/p/CH1W56lBSu0TrSD0UeV3Qq6u85Ll1pCZXfpMB68lOpg/2940x1962.jpg",
-					"width": 2940
+					"height": 550,
+					"url": "https://a.mktgcdn.com/p/jWmDbq-sCCs127N6mErDbWCfICs8VKU0P6C1zqBhgJg/831x550.png",
+					"width": 831
 				}
 			},
-			"name": "Article 2",
-			"shortDescription": "Don't let avoidable tax mistakes derail your financial progress. In this informative piece, our certified tax professionals shed light on the most common tax pitfalls individuals and businesses face and provide practical tips to steer clear of them. Learn about overlooked reporting requirements, potential audit triggers, and pitfalls related to cryptocurrency transactions and gig economy income. Gain insight into handling tax implications of rental properties and investments wisely. By proactively avoiding these errors, you can ensure a smoother tax\\-filing experience and maintain compliance with tax laws."
+			"name": "Article 2"
 		},
 		{
+			"fins_articleDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis molestie a iaculis at erat pellentesque adipiscing commodo. Diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet. Purus faucibus ornare suspendisse sed nisi lacus. Cursus turpis massa tincidunt dui ut ornare lectus sit amet.",
 			"fins_articlePhoto": {
 				"image": {
-					"height": 1962,
-					"url": "https://a.mktgcdn.com/p/CH1W56lBSu0TrSD0UeV3Qq6u85Ll1pCZXfpMB68lOpg/2940x1962.jpg",
-					"width": 2940
+					"height": 550,
+					"url": "https://a.mktgcdn.com/p/jWmDbq-sCCs127N6mErDbWCfICs8VKU0P6C1zqBhgJg/831x550.png",
+					"width": 831
 				}
 			},
-			"name": "Article 3",
-			"shortDescription": "Don't let avoidable tax mistakes derail your financial progress. In this informative piece, our certified tax professionals shed light on the most common tax pitfalls individuals and businesses face and provide practical tips to steer clear of them. Learn about overlooked reporting requirements, potential audit triggers, and pitfalls related to cryptocurrency transactions and gig economy income. Gain insight into handling tax implications of rental properties and investments wisely. By proactively avoiding these errors, you can ensure a smoother tax\\-filing experience and maintain compliance with tax laws."
+			"name": "Article 3"
 		}
 	],
 	"fins_jobTitle": "Director",
 	"fins_relatedServices": [
 		{
-			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis molestie a iaculis at erat pellentesque adipiscing commodo. Diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet. Purus faucibus ornare suspendisse sed nisi lacus. Cursus turpis massa tincidunt dui ut ornare lectus sit amet.",
 			"fins_servicesImage": {
 				"alternateText": "Alt Text",
 				"height": 57,
-				"url": "https://a.mktgcdn.com/p/MwEmEOi3k1t3Ah06gCVQapx5XVyunI28s_BD8Q0sT5Y/56x57.png",
+				"url": "http://a.mktgcdn.com/p/MwEmEOi3k1t3Ah06gCVQapx5XVyunI28s_BD8Q0sT5Y/56x57.png",
 				"width": 56
 			},
 			"name": "Service 1"
 		},
 		{
-			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis molestie a iaculis at erat pellentesque adipiscing commodo. Diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet. Purus faucibus ornare suspendisse sed nisi lacus. Cursus turpis massa tincidunt dui ut ornare lectus sit amet.",
 			"fins_servicesImage": {
 				"height": 57,
-				"url": "https://a.mktgcdn.com/p/MwEmEOi3k1t3Ah06gCVQapx5XVyunI28s_BD8Q0sT5Y/56x57.png",
+				"url": "http://a.mktgcdn.com/p/MwEmEOi3k1t3Ah06gCVQapx5XVyunI28s_BD8Q0sT5Y/56x57.png",
 				"width": 56
 			},
 			"name": "Service 2"
 		},
 		{
-			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis molestie a iaculis at erat pellentesque adipiscing commodo. Diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet. Purus faucibus ornare suspendisse sed nisi lacus. Cursus turpis massa tincidunt dui ut ornare lectus sit amet.",
 			"fins_servicesImage": {
 				"height": 57,
-				"url": "https://a.mktgcdn.com/p/MwEmEOi3k1t3Ah06gCVQapx5XVyunI28s_BD8Q0sT5Y/56x57.png",
+				"url": "http://a.mktgcdn.com/p/MwEmEOi3k1t3Ah06gCVQapx5XVyunI28s_BD8Q0sT5Y/56x57.png",
 				"width": 56
 			},
 			"name": "Service 3"

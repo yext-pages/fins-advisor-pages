@@ -20,7 +20,7 @@ export const config: TemplateConfig = {
     $id: "professionals",
     localization: { locales: ["en"], primary: false },
     filter: { entityTypes: ["financialProfessional"] },
-    fields: ["name", "description", "headshot", "slug", "photoGallery", "fins_jobTitle", "logo", "fins_relatedServices.name", "emails", "address", "mainPhone", "geocodedCoordinate", "fins_relatedServices.description", "fins_relatedServices.fins_servicesImage", "fins_featuredArticles.name", "fins_featuredArticles.shortDescription", "fins_featuredArticles.fins_articlePhoto"],
+    fields: ["name", "description", "headshot", "slug", "photoGallery", "fins_jobTitle", "logo", "fins_relatedServices.name", "emails", "address", "mainPhone", "geocodedCoordinate", "fins_relatedServices.description", "fins_relatedServices.fins_servicesImage", "fins_featuredArticles.name", "fins_featuredArticles.fins_articleDescription", "fins_featuredArticles.fins_articlePhoto"],
   },
 };
 export const getPath: GetPath<TemplateProps> = ({ document }) => {

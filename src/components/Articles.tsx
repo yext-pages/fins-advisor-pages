@@ -7,7 +7,7 @@ import Cta from "./Cta";
   
   interface ArticleProps {
     name: string;
-    shortDescription: string;
+    fins_articleDescription: string;
     fins_articlePhoto?: ComplexImageType | ImageType;
   }
   
@@ -36,7 +36,7 @@ import Cta from "./Cta";
               {featuredArticle.name}
             </h2>
             <p className="mt-4 text-lg  text-gray-600 line-clamp-4">
-              {featuredArticle.shortDescription}
+              {featuredArticle.fins_articleDescription}
             </p>
           </article>
           <div className="mx-auto w-full max-w-2xl border-t border-gray-900/10 pt-12 sm:pt-16 lg:mx-0 lg:max-w-none lg:border-t-0 lg:pt-0">
@@ -49,7 +49,7 @@ import Cta from "./Cta";
                       {article.name}
                     </h2>
                     <p className="mt-4 text-sm leading-6 text-gray-600 line-clamp-3">
-                      {article.shortDescription}
+                      {article.fins_articleDescription}
                     </p>
                   </div>
                 </article>

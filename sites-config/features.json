@@ -46,7 +46,7 @@
         "fins_relatedServices.description",
         "fins_relatedServices.fins_servicesImage",
         "fins_featuredArticles.name",
-        "fins_featuredArticles.shortDescription",
+        "fins_featuredArticles.fins_articleDescription",
         "fins_featuredArticles.fins_articlePhoto"
       ]
     }
